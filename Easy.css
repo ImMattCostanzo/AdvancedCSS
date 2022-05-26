@@ -1,0 +1,47 @@
+/* Resetting My Css  */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  .flag {
+    width: 500px;
+    height: 260px;
+    margin: 5% auto 1% auto;
+    position: relative;
+   
+  }
+  /* Stripe  */
+  .stripe {
+    height: 20px;
+  }
+  
+  /* Red Stripe  */
+  .stripe:nth-child(odd){
+    background-color: #6f131e; 
+  }
+  /* White Stripe */
+  .stripe:nth-child(even){
+    background-color: #FFFFFF;
+  }
+  
+  /* Star Row  */
+  .star-row {
+    height: 15px;
+    display: flex;
+    align-items: center;
+  }
+  /* Arrangement 1 */
+  .star-row:nth-child(odd){
+     justify-content: space-around;
+  }
+  /* Arrangement 2 */
+  .star-row:nth-child(even){
+      justify-content: space-evenly;
+  }
+  /* Star */
+  .star {
+    display: block;
+    color: #FFFFFF;
+  }
